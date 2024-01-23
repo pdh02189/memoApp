@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+    <title>메모앱</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="d_none">메모앱</h1>
+        <header>
+            <div class="visual">
+                <div class='console-container'>
+                    <span id='text'></span>
+                    <div class='console-underscore' id='console'>&#95;</div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <form id="memoForm">
+                <input type="text" id="memo" placeholder="메모를 입력하세요">
+                <button type="submit">등록</button>
+            </form>
+            <h4>메모<span class="count">0</span></h4>
+            <div class="memo_wrap">
+                <ul class="memo_list">
+
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright &copy; 1004dahye</p>
+        </footer>
+    </div>
+    <script src="script/main.js"></script>
+</body>
+</html>
